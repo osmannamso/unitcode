@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "unitcode"
+  "defaultProject": "unitcode",
+  "cli": {
+    "analytics": "7651468b-436b-4052-a961-6f0ec53ffa96"
+  }
 }
