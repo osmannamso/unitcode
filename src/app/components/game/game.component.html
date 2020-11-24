@@ -1,0 +1,5 @@
+<div *ngFor="let column of desk; let x = index" class="game-desk-cover">
+  <ng-container *ngFor="let square of column; let y = index">
+    <a (click)="setMark(x, y)" class="game-square">{{ square }}</a>
+  </ng-container>
+</div>
